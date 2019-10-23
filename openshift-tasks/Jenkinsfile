@@ -22,6 +22,7 @@ podTemplate(
     // Checkout Source Code.
     stage('Checkout Source') {
       checkout scm
+      git url: 'https://github.com/jninomo/oc_homework.git'
     }
 
     // Build the Tasks Service
